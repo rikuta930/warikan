@@ -17,3 +17,10 @@ def double(num):
 
 
 print(double(1))
+
+
+def str_combine(name, family_name):
+    return f"{name} {family_name}"
+
+
+print(str_combine('Rikuta', "Hiratsuka"))
