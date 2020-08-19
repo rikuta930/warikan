@@ -9,8 +9,11 @@ def say_hello(name):
     print(f"Hi {name}")
 
 
+say_hello("rikuta")
+
+
 def double(num):
     return num * 2
 
 
-say_hello("rikuta")
+print(double(1))
