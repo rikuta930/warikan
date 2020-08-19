@@ -1,4 +1,4 @@
 # 和漢計算したーい 7000円で6人
-import warikan
+from warikan import split_bill
 
-print(warikan(7000, 6))
+print(split_bill(7000, 6))
